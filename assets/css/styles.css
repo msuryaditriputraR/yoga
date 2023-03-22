@@ -234,7 +234,12 @@ img {
 }
 
 /* Active link */
-
+.active-link {
+  background: var(--gradient-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 /*=============== HOME ===============*/
 .home__container {
