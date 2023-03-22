@@ -37,6 +37,13 @@ const blurHeader = () => {
 window.addEventListener("scroll", blurHeader);
 
 /*=============== SHOW SCROLL UP ===============*/
+const showScroll = () => {
+    document
+        .getElementById("scroll-up")
+        .classList[this.scrollY >= 350 ? "add" : "remove"]("show-scroll");
+};
+
+window.addEventListener("scroll", showScroll);
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
